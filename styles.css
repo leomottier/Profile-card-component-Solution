@@ -1,0 +1,89 @@
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url(./images/bg-pattern-bottom.svg) right -200px top 490px no-repeat ,
+     hsl(185, 75%, 39%) url(./images/bg-pattern-TOP.svg) right 800px top -600px no-repeat;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.data {
+    background-color: white;
+    width: 21rem;
+    height: 15rem;
+    border-radius: 0px 0px 15px 15px;
+    position: fixed;
+    top: 14.5rem;
+    
+  
+}
+
+.nombre {
+    margin-top: 4rem;
+    font-size: 18px;
+}
+
+.color {
+    width: 21rem;
+    height: 11rem;
+    background-image: url(./images/bg-pattern-card.svg);
+    border-radius: 15px 15px 0px 0px;
+    position: fixed;
+    top: 6rem;
+    
+   
+}
+
+
+.foto {
+    height: 6rem;
+    width: 6rem;
+    background-image: url(./images/image-victor.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid white;
+    display: block;
+    position: absolute;
+    top: -4rem;
+    
+  
+}
+
+.followers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    border-top: 1px solid lightgray;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+span, p{
+    color: gray;
+    font-size: 14px;
+}
+
+.london {
+    color: gray;
+    font-size: 14px;
+}
+
+@media (min-width: 375 px) {
+    html {
+        background: url(./images/bg-pattern-bottom.svg) right 0px top 0px no-repeat ,
+         hsl(185, 75%, 39%) url(./images/bg-pattern-TOP.svg) right 0px top -0px no-repeat;
+
+    
+}
