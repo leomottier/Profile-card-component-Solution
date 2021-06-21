@@ -1,7 +1,7 @@
 html {
     font-family: 'Kumbh Sans', sans-serif;
     background: url(./images/bg-pattern-bottom.svg) right -200px top 490px no-repeat ,
-     hsl(185, 75%, 39%) url(./images/bg-pattern-TOP.svg) right 800px top -600px no-repeat;
+     hsl(185, 75%, 39%) url(./images/bg-pattern-top.svg) right 800px top -600px no-repeat;
 }
 .container {
     min-height: 100vh;
